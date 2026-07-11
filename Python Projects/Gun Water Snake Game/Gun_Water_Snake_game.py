@@ -23,6 +23,7 @@ def winner(computer,user):
 print("--- Gun Water Snake Game ---")
 print('Game will be best of 3')
 print("Choose options:snake(s) water(w) gun(g)")
+print()
 
 user_score=0
 computer_score=0
@@ -66,6 +67,7 @@ for i in range(1,4):
 
         # End match if any one wins first 2 round
         print(f'You scored: {user_score} | Computer scored: {computer_score}')
+        print()
         if user_score==2 or computer_score==2:
             break
         
@@ -76,6 +78,7 @@ for i in range(1,4):
        
 # show final result
 print("- - - Final Result - - -")
+print()
 
 print(f'You scored: {user_score}')
 
