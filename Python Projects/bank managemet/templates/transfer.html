@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Transfer Money</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Bank Management System</h1>
+
+        <h2>Transfer Money</h2>
+
+        {% if error %}
+
+            <div class="error">
+                {{ error }}
+            </div>
+
+        {% endif %}
+
+
+        {% if success %}
+
+            <div class="success">
+                {{ success }}
+            </div>
+
+        {% endif %}
+
+
+        <form method="POST">
+
+            <label>Receiver Account ID</label>
+
+            <input
+                type="text"
+                name="receiver_id"
+                placeholder="Enter receiver account ID"
+                required
+            >
+
+
+            <label>Amount</label>
+
+            <input
+                type="number"
+                name="amount"
+                placeholder="Enter amount"
+                step="0.01"
+                min="0.01"
+                required
+            >
+
+
+            <button type="submit">
+                Transfer Money
+            </button>
+
+        </form>
+
+
+        <p>
+            <a href="{{ url_for('dashboard') }}">
+                ← Back to Dashboard
+            </a>
+        </p>
+
+    </div>
+
+</body>
+
+</html>

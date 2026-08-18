@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Change PIN</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>Bank Management System</h1>
+
+        <h2>Change PIN</h2>
+
+
+        {% if error %}
+
+            <div class="error">
+                {{ error }}
+            </div>
+
+        {% endif %}
+
+
+        {% if success %}
+
+            <div class="success">
+                {{ success }}
+            </div>
+
+        {% endif %}
+
+
+        <form method="POST">
+
+            <label>Current PIN</label>
+
+            <input
+                type="password"
+                name="current_pin"
+                maxlength="4"
+                inputmode="numeric"
+                placeholder="Enter current PIN"
+                required
+            >
+
+
+            <label>New PIN</label>
+
+            <input
+                type="password"
+                name="new_pin"
+                maxlength="4"
+                inputmode="numeric"
+                placeholder="Enter new PIN"
+                required
+            >
+
+
+            <label>Confirm New PIN</label>
+
+            <input
+                type="password"
+                name="confirm_pin"
+                maxlength="4"
+                inputmode="numeric"
+                placeholder="Confirm new PIN"
+                required
+            >
+
+
+            <button type="submit">
+                Change PIN
+            </button>
+
+        </form>
+
+
+        <p>
+            <a href="{{ url_for('dashboard') }}">
+                ← Back to Dashboard
+            </a>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
