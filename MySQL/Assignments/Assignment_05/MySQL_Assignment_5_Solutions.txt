@@ -1,0 +1,375 @@
+MySQL Assignment – 5
+
+Q1)
+SELECT *
+FROM Books
+WHERE Author_Name = 'Loni'
+AND Cost < 600;
+
+Q2)
+SELECT *
+FROM Issue
+WHERE Return_Date IS NULL;
+
+Q3)
+UPDATE Issue
+SET Return_Date = '2006-12-31'
+WHERE Return_Date IS NULL
+AND Lib_Issue_Id NOT IN (7005, 7006);
+
+Q4)
+SELECT *
+FROM Issue
+WHERE DATEDIFF(CURDATE(), Issue_Date) > 30;
+
+Q5)
+SELECT *
+FROM Books
+WHERE Cost BETWEEN 500 AND 750
+AND Category = 'Database';
+
+Q6)
+SELECT *
+FROM Books
+WHERE Category IN ('Science', 'Database', 'Fiction', 'Management');
+
+Q7)
+SELECT *
+FROM Member
+ORDER BY Penalty_Amount DESC;
+
+Q8)
+UPDATE Books
+SET Cost = 300,
+    Category = 'RDBMS'
+WHERE Book_No = 103;
+
+Q9)
+SELECT *
+FROM Books
+ORDER BY Category ASC, Cost DESC;
+
+Q10)
+SELECT *
+FROM Books
+WHERE Book_Name LIKE '%SQL%';
+
+Q11)
+SELECT Lib_Issue_Id, Issue_Date, Return_Date,
+       DATEDIFF(Return_Date, Issue_Date) AS No_Of_Days
+FROM Issue;
+
+Q12)
+SELECT *
+FROM Member
+ORDER BY Acc_Open_Date;
+
+Q13)
+SELECT COUNT(*) AS Total_Books
+FROM Issue
+WHERE Member_Id = 101;
+
+Q14)
+SELECT SUM(Penalty_Amount) AS Total_Penalty
+FROM Member;
+
+Q15)
+SELECT COUNT(*) AS Total_Members
+FROM Member;
+
+Q16)
+SELECT COUNT(*) AS Total_Books_Issued
+FROM Issue;
+
+Q17)
+SELECT AVG(Fees_Paid) AS Average_Fees
+FROM Member;
+
+Q18)
+SELECT Category, COUNT(*) AS Total_Books
+FROM Books
+GROUP BY Category;
+
+Q19)
+SELECT Book_No, COUNT(*) AS Issue_Count
+FROM Issue
+GROUP BY Book_No
+ORDER BY Issue_Count DESC;
+
+Q20)
+SELECT MAX(Penalty_Amount) AS Maximum_Penalty,
+       MIN(Penalty_Amount) AS Minimum_Penalty,
+       SUM(Penalty_Amount) AS Total_Penalty,
+       AVG(Penalty_Amount) AS Average_Penalty
+FROM Member;
+
+Q21)
+SELECT Member_Id, COUNT(*) AS Total_Books
+FROM Issue
+GROUP BY Member_Id
+HAVING COUNT(*) > 2;
+
+Q22)
+SELECT Member_Id, Book_No, COUNT(*) AS Issue_Count
+FROM Issue
+GROUP BY Member_Id, Book_No
+ORDER BY Issue_Count DESC;
+
+Q23)
+SELECT MONTHNAME(Issue_Date) AS Month, COUNT(*) AS Total_Books
+FROM Issue
+GROUP BY MONTH(Issue_Date), MONTHNAME(Issue_Date)
+ORDER BY Total_Books DESC;
+
+Q24)
+SELECT Book_No
+FROM Books
+WHERE Book_No NOT IN (SELECT Book_No FROM Issue);
+
+Q25)
+SELECT DISTINCT Member_Id
+FROM Issue
+WHERE Member_Id IN (SELECT Member_Id FROM Member);
+
+Q26)
+SELECT Member_Id, COUNT(*) AS Book_Count
+FROM Issue
+GROUP BY Member_Id
+HAVING COUNT(*) =
+(
+    SELECT MAX(Book_Count)
+    FROM
+    (
+        SELECT COUNT(*) AS Book_Count
+        FROM Issue
+        GROUP BY Member_Id
+    ) AS A
+)
+OR COUNT(*) =
+(
+    SELECT MIN(Book_Count)
+    FROM
+    (
+        SELECT COUNT(*) AS Book_Count
+        FROM Issue
+        GROUP BY Member_Id
+    ) AS B
+);
+
+Q27)
+SELECT *
+FROM Issue
+WHERE MONTHNAME(Issue_Date) IN ('December', 'July');
+
+Q28)
+SELECT b.Book_No, b.Book_Name, i.Issue_Date
+FROM Books b
+JOIN Issue i ON b.Book_No = i.Book_No
+WHERE MONTHNAME(i.Issue_Date) = 'December'
+AND b.Category = 'Database';
+
+Q29)
+SELECT Member_Id, Member_Name, Max_Books_Allowed
+FROM Member
+ORDER BY Max_Books_Allowed DESC;
+
+Q30)
+SELECT b.Book_No, b.Book_Name, i.Issue_Date, i.Return_Date
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+JOIN Books b ON i.Book_No = b.Book_No
+WHERE m.Member_Name = 'Richa Sharma';
+
+Q31)
+SELECT DISTINCT m.*
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+JOIN Books b ON i.Book_No = b.Book_No
+WHERE b.Category = 'Database';
+
+Q32)
+SELECT *
+FROM Books b
+WHERE Cost =
+(
+    SELECT MAX(Cost)
+    FROM Books
+    WHERE Category = b.Category
+);
+
+Q33)
+SELECT i.*
+FROM Issue i
+JOIN Member m ON i.Member_Id = m.Member_Id
+WHERE i.Issue_Date NOT BETWEEN m.Acc_Open_Date AND i.Return_Date;
+
+Q34)
+SELECT *
+FROM Member
+WHERE Member_Id NOT IN (SELECT Member_Id FROM Issue);
+
+Q35)
+SELECT DISTINCT m.*
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+WHERE i.Book_No IN
+(
+    SELECT i2.Book_No
+    FROM Issue i2
+    JOIN Member m2 ON i2.Member_Id = m2.Member_Id
+    WHERE m2.Member_Name = 'Garima Sen'
+);
+
+Q36)
+SELECT b.Book_Name, b.Cost
+FROM Books b
+JOIN Issue i ON b.Book_No = i.Book_No
+WHERE i.Return_Date IS NULL
+AND DATEDIFF(CURDATE(), i.Issue_Date) > 30;
+
+Q37)
+SELECT Author_Name, Book_Name
+FROM Books
+WHERE Author_Name IN
+(
+    SELECT Author_Name
+    FROM Books
+    GROUP BY Author_Name
+    HAVING COUNT(*) > 1
+);
+
+Q38)
+SELECT m.Member_Id, m.Member_Name
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+GROUP BY m.Member_Id, m.Member_Name
+HAVING COUNT(*) =
+(
+    SELECT MAX(Book_Count)
+    FROM
+    (
+        SELECT COUNT(*) AS Book_Count
+        FROM Issue
+        GROUP BY Member_Id
+    ) AS A
+)
+OR COUNT(*) =
+(
+    SELECT MIN(Book_Count)
+    FROM
+    (
+        SELECT COUNT(*) AS Book_Count
+        FROM Issue
+        GROUP BY Member_Id
+    ) AS B
+);
+
+Q39)
+SELECT *
+FROM Books
+ORDER BY Cost DESC
+LIMIT 3;
+
+Q40)
+SELECT SUM(b.Cost) AS Total_Cost
+FROM Books b
+JOIN Issue i ON b.Book_No = i.Book_No
+WHERE i.Return_Date IS NULL;
+
+Q41)
+SELECT b.*
+FROM Books b
+JOIN Issue i ON b.Book_No = i.Book_No
+GROUP BY b.Book_No, b.Book_Name, b.Author_Name, b.Cost, b.Category
+ORDER BY COUNT(*) DESC
+LIMIT 1;
+
+Q42)
+SELECT COUNT(*) AS Total_Books
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+WHERE m.Membership_Type = 'Lifetime';
+
+Q43)
+SELECT Membership_Type, COUNT(*) AS Total_Members
+FROM Member
+GROUP BY Membership_Type;
+
+Q44)
+SELECT *
+FROM Member
+ORDER BY Acc_Open_Date ASC
+LIMIT 5;
+
+Q45)
+SELECT DISTINCT m.Member_Name, m.Membership_Type
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+WHERE MONTH(i.Issue_Date) = 12;
+
+Q46)
+SELECT DISTINCT m.*
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+WHERE i.Return_Date IS NULL;
+
+Q47)
+SELECT *
+FROM Member
+WHERE Acc_Open_Date =
+(
+    SELECT Acc_Open_Date
+    FROM Member
+    WHERE Member_Name = 'Garima Sen'
+);
+
+Q48)
+SELECT DISTINCT m.*
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+JOIN Books b ON i.Book_No = b.Book_No
+WHERE b.Author_Name = 'Loni'
+AND MONTH(i.Issue_Date) = 12;
+
+Q49)
+SELECT b.Author_Name, COUNT(*) AS Issue_Count
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+JOIN Books b ON i.Book_No = b.Book_No
+WHERE m.Membership_Type = 'Lifetime'
+GROUP BY b.Author_Name
+HAVING COUNT(*) =
+(
+    SELECT MIN(Issue_Count)
+    FROM
+    (
+        SELECT COUNT(*) AS Issue_Count
+        FROM Member m2
+        JOIN Issue i2 ON m2.Member_Id = i2.Member_Id
+        JOIN Books b2 ON i2.Book_No = b2.Book_No
+        WHERE m2.Membership_Type = 'Lifetime'
+        GROUP BY b2.Author_Name
+    ) AS Counts
+);
+
+Q50)
+SELECT DISTINCT m.Member_Name
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+JOIN Books b ON i.Book_No = b.Book_No
+WHERE b.Cost > 300
+AND b.Author_Name = 'Scott Urman';
+
+Q51)
+SELECT m.Member_Id, m.Member_Name, m.Membership_Type
+FROM Member m
+JOIN Issue i ON m.Member_Id = i.Member_Id
+WHERE m.Membership_Type = 'Lifetime'
+AND YEAR(m.Acc_Open_Date) = 2006
+GROUP BY m.Member_Id, m.Member_Name, m.Membership_Type
+HAVING COUNT(*) = 1;
+
+Q52)
+UPDATE Member
+SET Penalty_Amount = 100
+WHERE Member_Name = 'Garima Sen';
