@@ -1,0 +1,251 @@
+song_id,title,artist,genre,language,mood
+1,Shape of You,Ed Sheeran,Pop,English,Happy
+2,Blinding Lights,The Weeknd,Synth-pop,English,Energetic
+3,Bohemian Rhapsody,Queen,Rock,English,Intense
+4,Someone Like You,Adele,Pop/Soul,English,Sad
+5,Rolling in the Deep,Adele,Pop/Soul,English,Intense
+6,Uptown Funk,Mark Ronson ft. Bruno Mars,Funk/Pop,English,Party
+7,Happy,Pharrell Williams,Pop/Soul,English,Happy
+8,Billie Jean,Michael Jackson,Pop,English,Energetic
+9,Imagine,John Lennon,Rock,English,Peaceful
+10,Hotel California,Eagles,Rock,English,Melancholic
+11,Stairway to Heaven,Led Zeppelin,Rock,English,Intense
+12,Smells Like Teen Spirit,Nirvana,Grunge,English,Intense
+13,Rehab,Amy Winehouse,Soul,English,Sad
+14,Bad Guy,Billie Eilish,Pop,English,Confident
+15,Levitating,Dua Lipa,Pop,English,Energetic
+16,Watermelon Sugar,Harry Styles,Pop,English,Happy
+17,Radioactive,Imagine Dragons,Rock,English,Energetic
+18,Counting Stars,OneRepublic,Pop Rock,English,Uplifting
+19,Thinking Out Loud,Ed Sheeran,Pop,English,Romantic
+20,All of Me,John Legend,R&B,English,Romantic
+21,Perfect,Ed Sheeran,Pop,English,Romantic
+22,Someone You Loved,Lewis Capaldi,Pop,English,Sad
+23,Lose Yourself,Eminem,Hip-Hop,English,Intense
+24,God's Plan,Drake,Hip-Hop,English,Confident
+25,HUMBLE.,Kendrick Lamar,Hip-Hop,English,Intense
+26,SICKO MODE,Travis Scott,Hip-Hop,English,Energetic
+27,Old Town Road,Lil Nas X,Country Rap,English,Party
+28,Take Five,Dave Brubeck,Jazz,English,Chill
+29,What a Wonderful World,Louis Armstrong,Jazz,English,Peaceful
+30,(I Can't Get No) Satisfaction,The Rolling Stones,Rock,English,Energetic
+31,My Heart Will Go On,Celine Dion,Pop,English,Romantic
+32,I Will Always Love You,Whitney Houston,Pop/Soul,English,Sad
+33,Every Breath You Take,The Police,Rock,English,Melancholic
+34,Wonderwall,Oasis,Britpop,English,Nostalgic
+35,Don't Stop Believin',Journey,Rock,English,Uplifting
+36,Africa,Toto,Rock,English,Nostalgic
+37,Circles,Post Malone,Pop,English,Melancholic
+38,Save Your Tears,The Weeknd,Synth-pop,English,Melancholic
+39,As It Was,Harry Styles,Pop,English,Nostalgic
+40,Anti-Hero,Taylor Swift,Pop,English,Sad
+41,Flowers,Miley Cyrus,Pop,English,Confident
+42,Enter Sandman,Metallica,Metal,English,Intense
+43,Sweet Child O' Mine,Guns N' Roses,Rock,English,Energetic
+44,Back in Black,AC/DC,Rock,English,Energetic
+45,Levels,Avicii,EDM,English,Energetic
+46,Wake Me Up,Avicii,EDM,English,Uplifting
+47,One More Time,Daft Punk,Electronic,English,Party
+48,No Woman No Cry,Bob Marley,Reggae,English,Melancholic
+49,Three Little Birds,Bob Marley,Reggae,English,Uplifting
+50,One Love,Bob Marley,Reggae,English,Peaceful
+51,Jolene,Dolly Parton,Country,English,Sad
+52,"Take Me Home, Country Roads",John Denver,Country,English,Nostalgic
+53,Before He Cheats,Carrie Underwood,Country,English,Intense
+54,Viva La Vida,Coldplay,Alt Rock,English,Uplifting
+55,Fix You,Coldplay,Alt Rock,English,Sad
+56,Yellow,Coldplay,Alt Rock,English,Romantic
+57,Clocks,Coldplay,Alt Rock,English,Melancholic
+58,Take Me to Church,Hozier,Alt/Soul,English,Intense
+59,Shallow,Lady Gaga & Bradley Cooper,Pop/Country,English,Romantic
+60,Bad Romance,Lady Gaga,Pop,English,Energetic
+61,Poker Face,Lady Gaga,Pop,English,Confident
+62,Payphone,Maroon 5,Pop Rock,English,Sad
+63,Sugar,Maroon 5,Pop,English,Happy
+64,Girls Like You,Maroon 5,Pop,English,Happy
+65,Sunflower,Post Malone & Swae Lee,Hip-Hop/Pop,English,Chill
+66,Peaches,Justin Bieber,Pop,English,Chill
+67,Stay,The Kid LAROI & Justin Bieber,Pop,English,Melancholic
+68,Uptown Girl,Billy Joel,Pop Rock,English,Happy
+69,Piano Man,Billy Joel,Rock,English,Nostalgic
+70,Hey Jude,The Beatles,Rock,English,Uplifting
+71,Let It Be,The Beatles,Rock,English,Peaceful
+72,Here Comes the Sun,The Beatles,Rock,English,Happy
+73,Yesterday,The Beatles,Rock,English,Sad
+74,Wannabe,Spice Girls,Pop,English,Happy
+75,Toxic,Britney Spears,Pop,English,Energetic
+76,...Baby One More Time,Britney Spears,Pop,English,Energetic
+77,Since U Been Gone,Kelly Clarkson,Pop Rock,English,Confident
+78,Umbrella,Rihanna,Pop/R&B,English,Uplifting
+79,Diamonds,Rihanna,Pop,English,Uplifting
+80,Work,Rihanna ft. Drake,Dancehall,English,Party
+81,Firework,Katy Perry,Pop,English,Uplifting
+82,Roar,Katy Perry,Pop,English,Confident
+83,Chandelier,Sia,Pop,English,Intense
+84,Believer,Imagine Dragons,Rock,English,Intense
+85,Thunder,Imagine Dragons,Pop Rock,English,Energetic
+86,Demons,Imagine Dragons,Alt Rock,English,Melancholic
+87,Numb,Linkin Park,Rock,English,Intense
+88,In the End,Linkin Park,Rock,English,Melancholic
+89,Boulevard of Broken Dreams,Green Day,Rock,English,Melancholic
+90,Dynamite,BTS,Pop,English,Happy
+91,Shivers,Ed Sheeran,Pop,English,Energetic
+92,Cruel Summer,Taylor Swift,Pop,English,Happy
+93,Blank Space,Taylor Swift,Pop,English,Confident
+94,Havana,Camila Cabello ft. Young Thug,Pop,English,Romantic
+95,Senorita,Shawn Mendes & Camila Cabello,Pop,English,Romantic
+96,Tum Hi Ho,Arijit Singh,Bollywood,Hindi,Romantic
+97,Kal Ho Naa Ho,Sonu Nigam,Bollywood,Hindi,Sad
+98,Kesariya,Arijit Singh,Bollywood,Hindi,Romantic
+99,Zinda,Siddharth Mahadevan,Bollywood,Hindi,Uplifting
+100,Chaiyya Chaiyya,Sukhwinder Singh & Sapna Awasthi,Bollywood,Hindi,Energetic
+101,Jai Ho,A. R. Rahman,Bollywood,Hindi,Uplifting
+102,Tera Ban Jaunga,Akhil Sachdeva & Tulsi Kumar,Bollywood,Hindi,Romantic
+103,Channa Mereya,Arijit Singh,Bollywood,Hindi,Sad
+104,Malhari,Vishal Dadlani,Bollywood,Hindi,Energetic
+105,Gerua,Arijit Singh & Antara Mitra,Bollywood,Hindi,Romantic
+106,Tujhe Dekha To,Lata Mangeshkar & Kumar Sanu,Bollywood,Hindi,Romantic
+107,Tum Se Hi,Mohit Chauhan,Bollywood,Hindi,Romantic
+108,Kabira,Tochi Raina & Rekha Bhardwaj,Bollywood,Hindi,Melancholic
+109,Ilahi,Arijit Singh,Bollywood,Hindi,Uplifting
+110,Agar Tum Saath Ho,Alka Yagnik & Arijit Singh,Bollywood,Hindi,Sad
+111,Raabta,Arijit Singh,Bollywood,Hindi,Romantic
+112,Tera Yaar Hoon Main,Arijit Singh,Bollywood,Hindi,Uplifting
+113,Bekhayali,Sachet Tandon,Bollywood,Hindi,Intense
+114,Ae Dil Hai Mushkil,Arijit Singh,Bollywood,Hindi,Sad
+115,Tujh Mein Rab Dikhta Hai,Roop Kumar Rathod,Bollywood,Hindi,Romantic
+116,Sadda Haq,Mohit Chauhan,Bollywood,Hindi,Intense
+117,Nadaan Parinde,Mohit Chauhan,Bollywood,Hindi,Melancholic
+118,Kun Faya Kun,"Javed Ali, Mohit Chauhan & A. R. Rahman",Bollywood,Hindi,Peaceful
+119,Pehla Nasha,Udit Narayan & Sadhana Sargam,Bollywood,Hindi,Romantic
+120,Tumhi Ho Bandhu,"Amitabh Bhattacharya, Shalmali Kholgade & Javed Ali",Bollywood,Hindi,Uplifting
+121,Second Hand Jawaani,"Neha Kakkar, Wajid & Mika Singh",Bollywood,Hindi,Party
+122,Malang,"Siddharth Mahadevan, Shilpa Rao & Sachet Tandon",Bollywood,Hindi,Intense
+123,Apna Time Aayega,Ranveer Singh & DIVINE,Hip-Hop,Hindi,Confident
+124,Kar Har Maidaan Fateh,"Sukhwinder Singh, Shreya Ghoshal & Vinit Singh",Bollywood,Hindi,Uplifting
+125,Ghungroo,Arijit Singh & Shilpa Rao,Bollywood,Hindi,Party
+126,Duniyaa,Akhil & Dhvani Bhanushali,Bollywood,Hindi,Romantic
+127,Kalank,Arijit Singh,Bollywood,Hindi,Sad
+128,Tere Bina,A. R. Rahman & Chinmayi,Bollywood,Hindi,Romantic
+129,Tu Jaane Na,Atif Aslam,Bollywood,Hindi,Sad
+130,Tera Hone Laga Hoon,Atif Aslam & Alisha Chinai,Bollywood,Hindi,Romantic
+131,Woh Lamhe,Atif Aslam,Bollywood,Hindi,Sad
+132,Jeene Laga Hoon,Atif Aslam & Shreya Ghoshal,Bollywood,Hindi,Romantic
+133,Bol Do Na Zara,Armaan Malik & Amaal Mallik,Bollywood,Hindi,Romantic
+134,Muskurane,Arijit Singh,Bollywood,Hindi,Romantic
+135,Phir Le Aya Dil,Arijit Singh,Bollywood,Hindi,Sad
+136,Barfi,Mohit Chauhan,Bollywood,Hindi,Happy
+137,Sooraj Dooba Hain,Arijit Singh & Aditi Singh Sharma,Bollywood,Hindi,Party
+138,Tum Ho,Mohit Chauhan,Bollywood,Hindi,Romantic
+139,Sanam Re,Arijit Singh,Bollywood,Hindi,Romantic
+140,Hasi Ban Gaye,Ami Mishra,Bollywood,Hindi,Sad
+141,Humdard,Arijit Singh,Bollywood,Hindi,Sad
+142,Galliyan,Ankit Tiwari,Bollywood,Hindi,Sad
+143,Bolna,Arijit Singh & Asees Kaur,Bollywood,Hindi,Romantic
+144,Ae Watan,Sunidhi Chauhan,Bollywood,Hindi,Uplifting
+145,Ziddi Dil,Jubin Nautiyal,Bollywood,Hindi,Uplifting
+146,Sun Saathiya,Shreya Ghoshal & Vishal Dadlani,Bollywood,Hindi,Happy
+147,London Thumakda,"Labh Janjua, Sonu Kakkar & Neha Kakkar",Bollywood,Hindi,Party
+148,Kala Chashma,Neha Kakkar & Badshah,Bollywood,Hindi,Party
+149,Nagada Sang Dhol,Shreya Ghoshal & Osman Mir,Bollywood,Hindi,Energetic
+150,Lahu Munh Lag Gaya,Shail Hada & Aakanksha Sharma,Bollywood,Hindi,Intense
+151,Deewani Mastani,Shreya Ghoshal,Bollywood,Hindi,Romantic
+152,Pinga,Shreya Ghoshal & Vaishali Mhade,Bollywood,Hindi,Energetic
+153,Ghoomar,Shreya Ghoshal,Bollywood,Hindi,Energetic
+154,Binte Dil,Arijit Singh,Bollywood,Hindi,Uplifting
+155,Ang Laga De,Sukhwinder Singh & Shreya Ghoshal,Bollywood,Hindi,Energetic
+156,Radha,Shreya Ghoshal,Bollywood,Hindi,Party
+157,Disco Deewane,Vishal Dadlani,Bollywood,Hindi,Party
+158,Tune Maari Entriyaan,Vishal Dadlani & Neeraj Shridhar,Bollywood,Hindi,Energetic
+159,Jashn-E-Bahaara,Rahat Fateh Ali Khan,Bollywood,Hindi,Romantic
+160,Khwaja Mere Khwaja,A. R. Rahman,Bollywood,Hindi,Peaceful
+161,In Lamhon Ke Daaman Mein,A. R. Rahman & Alka Yagnik,Bollywood,Hindi,Romantic
+162,O Re Piya,Rahat Fateh Ali Khan,Bollywood,Hindi,Romantic
+163,Dil Se Re,A. R. Rahman,Bollywood,Hindi,Intense
+164,Roobaroo,Lucky Ali,Bollywood,Hindi,Uplifting
+165,Khalbali,A. R. Rahman,Bollywood,Hindi,Intense
+166,Luka Chuppi,Lata Mangeshkar & A. R. Rahman,Bollywood,Hindi,Sad
+167,Yeh Honsla,Shafqat Amanat Ali,Bollywood,Hindi,Uplifting
+168,Kabhi Kabhi Aditi,KK,Bollywood,Hindi,Happy
+169,Pehli Nazar Mein,Atif Aslam,Bollywood,Hindi,Romantic
+170,Suraj Hua Maddham,Sonu Nigam & Alka Yagnik,Bollywood,Hindi,Romantic
+171,Bole Chudiyan,Amit Kumar & Kavita Krishnamurthy,Bollywood,Hindi,Happy
+172,Kabhi Khushi Kabhie Gham,Lata Mangeshkar & Amit Kumar,Bollywood,Hindi,Uplifting
+173,Kuch Kuch Hota Hai,Udit Narayan & Alka Yagnik,Bollywood,Hindi,Romantic
+174,Tujhe Yaad Na Meri,Udit Narayan & Alka Yagnik,Bollywood,Hindi,Sad
+175,Chura Liya Hai Tumne,Mohammed Rafi & Asha Bhosle,Bollywood,Hindi,Romantic
+176,Mere Sapno Ki Rani,Kishore Kumar,Bollywood,Hindi,Romantic
+177,Roop Tera Mastana,Kishore Kumar,Bollywood,Hindi,Romantic
+178,Yeh Shaam Mastani,Kishore Kumar,Bollywood,Hindi,Happy
+179,Chura Ke Dil Mera,Udit Narayan & Alka Yagnik,Bollywood,Hindi,Party
+180,Dilwale Dulhania Le Jayenge,Lata Mangeshkar & Udit Narayan,Bollywood,Hindi,Romantic
+181,Ek Ladki Ko Dekha Toh Aisa Laga,Kumar Sanu,Bollywood,Hindi,Romantic
+182,Pyar Hua Chupke Se,Kavita Krishnamurthy,Bollywood,Hindi,Romantic
+183,Mere Haath Mein,Sonu Nigam & Sunidhi Chauhan,Bollywood,Hindi,Romantic
+184,Chand Sifarish,Shaan & Kailash Kher,Bollywood,Hindi,Happy
+185,Mitwa,"Shafqat Amanat Ali, Shaan & Udit Narayan",Bollywood,Hindi,Uplifting
+186,Kaho Naa Pyaar Hai,Udit Narayan & Alka Yagnik,Bollywood,Hindi,Romantic
+187,Tumse Milke Dil Ka Jo Haal,Alka Yagnik & Udit Narayan,Bollywood,Hindi,Happy
+188,Kajra Re,"Alisha Chinai, Shankar Mahadevan & Javed Ali",Bollywood,Hindi,Party
+189,Emosanal Attyachar,Amit Mishra & Shalini Sharma,Bollywood,Hindi,Energetic
+190,Zingaat,Ajay Gogavale & Atul Gogavale,Folk Pop,Marathi,Party
+191,Yad Lagla,Ajay Gogavale,Romantic Folk,Marathi,Romantic
+192,Sairat Zaala Ji,Chinmayi Sripaada & Ajay Gogavale,Folk,Marathi,Happy
+193,Aatach Baya Ka Bavarla,Ajay-Atul,Folk,Marathi,Energetic
+194,Apsara Aali,Bela Shende,Lavani,Marathi,Energetic
+195,Khel Mandala,Ajay-Atul,Folk,Marathi,Intense
+196,Wajle Ki Bara,Bela Shende,Lavani,Marathi,Energetic
+197,Jiv Rangla,Ajay-Atul,Folk,Marathi,Romantic
+198,Reshamachya Reghani,Ajay-Atul,Folk,Marathi,Peaceful
+199,Man Udhan Varyache,Shankar Mahadevan,Pop,Marathi,Uplifting
+200,Sukh Kalale,Shreya Ghoshal,Pop,Marathi,Happy
+201,Varyavarati Gandh Pasarla,Kunal Ganjawala,Filmi,Marathi,Romantic
+202,Baby Bring It On,Ajay Gogavale,Pop,Marathi,Energetic
+203,Bai Ga,Ajay-Atul & Aarya Ambekar,Lavani,Marathi,Energetic
+204,Chandra,Ajay-Atul & Shreya Ghoshal,Romantic Pop,Marathi,Romantic
+205,Ambabai Gondhalala Ye,Ajay Gogavale,Devotional Folk,Marathi,Devotional
+206,Kombadi Palali,Anand Shinde & Vaishali Samant,Folk,Marathi,Party
+207,Sur Niragas Ho,Shankar Mahadevan,Semi-Classical,Marathi,Peaceful
+208,Tejonidhi Lohagol,Shankar Mahadevan,Semi-Classical,Marathi,Intense
+209,Ghei Chand Makarand,Rahul Deshpande,Semi-Classical,Marathi,Romantic
+210,Din Gele Bhajanavin Sare,Shankar Mahadevan,Semi-Classical,Marathi,Melancholic
+211,Surat Piya Ki,Rahul Deshpande & Mahesh Kale,Semi-Classical,Marathi,Romantic
+212,Yaar Illahi,"Arijit Singh, Divya Kumar & Arshad Muhammad",Qawwali,Marathi,Energetic
+213,Lagi Kalejava Katar,Jitendra Abhisheki,Semi-Classical,Marathi,Intense
+214,Muralidhar Shyam,Prasad Sawkar,Semi-Classical,Marathi,Devotional
+215,Ved Lavla,Shankar Mahadevan,Pop,Marathi,Sad
+216,Zenda,Avadhoot Gupte,Pop,Marathi,Uplifting
+217,Shitti Wajali Gaadi Sutali,Anand Shinde & Avadhoot Gupte,Folk,Marathi,Energetic
+218,Radha Hi Bawari,Swapnil Bandodkar,Romantic Pop,Marathi,Romantic
+219,Mala Ved Lagale,Ketaki Mategaonkar & Swapnil Bandodkar,Pop,Marathi,Romantic
+220,Phulpakharu,Swapnil Bandodkar,Pop,Marathi,Happy
+221,Waou Waou,Vishal Dadlani,Pop,Marathi,Energetic
+222,Tu Mila,Shalmali Kholgade & Nikhil D'Souza,Pop,Marathi,Romantic
+223,Raghu Pinjryat Ala,Mugdha Karhade & Amitraj,Pop,Marathi,Energetic
+224,Nach Ga Ghuma,Avadhoot Gupte,Pop,Marathi,Happy
+225,Jhimma,"Mugdha Karhade, Aarti Kelkar & Suhas Joshi",Pop,Marathi,Uplifting
+226,Dil Mera,Vaishali Samant,Pop,Marathi,Happy
+227,Latak Matak,Avadhoot Gupte,Dance,Marathi,Party
+228,Khandala Ghaat,Swapnil Bandodkar & Avadhoot Gupte,Pop,Marathi,Energetic
+229,Petla Laal Diva,Vaishali Samant,Pop,Marathi,Intense
+230,Pipani,Pravin Kuvar,Pop,Marathi,Happy
+231,Navri Ni Navryachi Swaari,Avadhoot Gupte,Wedding Folk,Marathi,Happy
+232,Aaichya Gaavat,Kavita Raam & Mugdha Karhade,Pop,Marathi,Confident
+233,Mauli Swami Samarth,Adarsh Shinde,Devotional,Marathi,Peaceful
+234,Ye Go Ye Ye Maina,Ajay Gogavale,Folk,Marathi,Happy
+235,Shukratara Mand Vara,Arun Date,Bhavgeet,Marathi,Peaceful
+236,Ata Kashala Udyachi Baat,Asha Bhosle,Bhavgeet,Marathi,Peaceful
+237,Rimjhim Zarati Shravan Dhara,Suman Kalyanpur,Bhavgeet,Marathi,Romantic
+238,Mendichya Panavar,Lata Mangeshkar,Bhavgeet,Marathi,Romantic
+239,Ye Re Ghana,Asha Bhosle,Bhavgeet,Marathi,Melancholic
+240,Mogara Phulala,Lata Mangeshkar,Bhavgeet,Marathi,Peaceful
+241,Shatada Prem Karave,Arun Date,Bhavgeet,Marathi,Romantic
+242,Indrayani Kathi,Pandit Bhimsen Joshi,Abhang,Marathi,Devotional
+243,Sukhkarta Dukhharta,Traditional (Samarth Ramdas),Aarti,Marathi,Devotional
+244,Ganpati Bappa Morya,Traditional,Devotional Chant,Marathi,Happy
+245,Ghalin Lotangan,Traditional,Aarti,Marathi,Peaceful
+246,Pasaydan,Sant Dnyaneshwar,Devotional,Marathi,Peaceful
+247,Jai Jai Ram Krishna Hari,Traditional Warkari Bhajan,Devotional,Marathi,Peaceful
+248,Vitthal Vitthal Jai Hari Vitthal,Traditional Abhang,Devotional,Marathi,Peaceful
+249,Ye Re Ye Re Paavsa,Traditional Folk Rhyme,Folk,Marathi,Happy
+250,Nakarghanta,Adarsh Shinde,Pop,Marathi,Happy
